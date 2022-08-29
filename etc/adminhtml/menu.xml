@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+ **
+ * Copyright © Nos, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ *
+/-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Nos_ReadLog::readlog" title="Check Log" module="Nos_ReadLog" sortOrder="10"
+             action="nos/readlog" resource="Nos_Core::core" parent="Nos_Core::nos"/>
+    </menu>
+</config>

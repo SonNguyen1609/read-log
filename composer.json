@@ -1,0 +1,26 @@
+{
+    "name": "nos/module-readlog",
+    "description": "Read some Log file in var folder",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "version": "1.0.0",
+    "require": {
+        "php": "~8.1.0",
+        "nos/module-core": "1.0.*"
+    },
+    "authors": [
+        {
+            "name": "Son Nguyen",
+            "email": "sonon1609@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Nos\\ReadLog\\": ""
+        }
+    }
+}
